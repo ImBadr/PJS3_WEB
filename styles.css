@@ -1,0 +1,71 @@
+
+body{
+	background-color: white;
+	width: 86%;
+	margin :0% 7%;
+}
+
+.bandeau{
+	background-color: #103D82;
+	height: 90px;
+}
+
+.bandeau img{
+	width: 150px;
+	height: 72px;
+	float: left;
+	margin-top: 0.5%;
+	margin-left: 2%;
+}
+
+nav ul {
+	margin: 0% 3%;
+	width: 94%
+}
+
+nav li{
+	display: inline-block;
+	padding: 0% 1%;
+	width: auto;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: calibri;
+	font-size: 1.1em;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+/*
+.carousel {
+    width: 10%;
+    height: auto;
+    overflow: hidden;
+    margin: 0%;
+}
+.animPhoto {
+    width: calc(100% * 4);
+    animation: carousel 10s infinite;
+}
+
+.photo img{
+    float: left;
+}
+
+@keyframes carousel {
+    0% {transform: translateX(0);}
+
+    10% {transform: translateX(0);}
+
+    33% {transform: translateX(-100%);}
+
+    43% {transform: translateX(-100%);}
+
+    66% {transform: translateX(-200%);}
+
+    76% {transform: translateX(-200%);}
+
+    100% {transform: translateX(0);}
+}*/
