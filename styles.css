@@ -3,6 +3,7 @@ body{
 	background-color: white;
 	width: 86%;
 	margin :0% 7%;
+	
 }
 
 .bandeau{
@@ -38,7 +39,9 @@ nav a{
 	text-decoration: none;
 	color: black;
 }
-
+.sous-menu{
+	display: none;
+}
 .card1, .card2 ,.card3 , .card4{
 
 	box-shadow: 8px 8px 12px #aaa;
@@ -48,13 +51,9 @@ nav a{
 	width: 18rem; 
 	background-color :white;
 }
-/*
-.bandeau {
-background-color: #3A4CA2;
-height:55px;
-position:fixed;
+.titre-carousel{
+	background-color: wheat;
 }
-*/
 .bas_page {
 
 background-color : #28292a;
