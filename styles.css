@@ -56,14 +56,14 @@ nav a{
 }
 .bas_page {
 
-background-color : #28292a;
-width:100%;
-height: px;
-margin-top: 10%;
-margin-bottom: -20%;
+	background-color : #28292a;
+	width:100%;
+	height: px;
+	margin-top: 10%;
+	margin-bottom: -20%;
 }
 .Liens {
-color : white;
-font-size: 13px;
-text-decoration: underline white;
+	color : white;
+	font-size: 13px;
+	text-decoration: underline white;
 }
