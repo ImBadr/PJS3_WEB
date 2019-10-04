@@ -3,7 +3,6 @@ body{
 	background-color: white;
 	width: 86%;
 	margin :0% 7%;
-	
 }
 
 .bandeau{
@@ -19,12 +18,39 @@ body{
 	margin-left: 2%;
 }
 
-nav ul {
+
+.card1, .card2 ,.card3 , .card4{
+	box-shadow: 8px 8px 12px #aaa;
+	display: inline-block;
+	margin-left: 3%;
+	margin-top: 2%;
+	width: 18rem; 
+	background-color :white;
+}
+.titre-carousel{
+	background-color: wheat;
+}
+.bas_page {
+	background-color : #28292a;
+	width:100%;
+	height: px;
+	margin-top: 10%;
+	margin-bottom: -20%;
+}
+
+.Liens {
+	color : white;
+	font-size: 13px;
+	text-decoration: underline white;
+}
+
+/*Menu*/
+.menu ul {
 	margin: 0% 3%;
 	width: 94%
 }
 
-nav li{
+.menu ul li{
 	display: inline-block;
 	padding: 0% 1%;
 	width: auto;
@@ -35,35 +61,78 @@ nav li{
 	font-size: 1.1em;
 }
 
-nav a{
-	text-decoration: none;
-	color: black;
+.menu ul li a:hover {
+    text-decoration: none;
 }
-.sous-menu{
+
+/*sous-menu*/
+
+.menu ul li ul li:hover a{
+	font-family: calibri;
+}
+
+.menu ul li ul{
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    width: 225px;
+    z-index: 200;
+}
+
+.menu ul li:hover ul{
+    display: block;
+}
+
+.menu ul li ul li {
+    background-color: white;
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 225px;
+}
+
+.menu ul li ul li:hover{
+	background-color: rgb(180, 126, 231);
+}
+
+.menu ul li ul a{
+    display: block;
+    height: 30px;
+    font-size: 15px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+}
+
+/*sous-sous-menu*/
+
+.menu ul li ul li ul li {
 	display: none;
+    background-color: white;
 }
-.card1, .card2 ,.card3 , .card4{
+.menu ul li ul li:hover ul li{
+    display: block;
+}
+.menu ul li ul li ul li:hover{
+	background-color: rgb(247, 118, 139);
+}
 
-	box-shadow: 8px 8px 12px #aaa;
-	display:inline-block;
-	margin-left: 3%;
-	margin-top: 2%;
-	width: 18rem; 
-	background-color :white;
+#menu_long li{
+    width: 350px;
 }
-.titre-carousel{
-	background-color: wheat;
-}
-.bas_page {
-
-	background-color : #28292a;
-	width:100%;
-	height: px;
-	margin-top: 10%;
-	margin-bottom: -20%;
-}
-.Liens {
-	color : white;
-	font-size: 13px;
-	text-decoration: underline white;
+.menu ul li ul li ul{
+    height: auto;
+    padding: 0px;
+	border: 0px;
+	margin-left: 225px;
+	margin-top: -30px;
+    position: absolute;
+    width: 225px;
+    z-index: 200;
+    float: none;
 }
