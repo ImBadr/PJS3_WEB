@@ -1,5 +1,10 @@
 
 body{
+	background-color: #f6f5f2;
+	/* width: 86%;
+	margin :0% 7%; */
+}
+.corp{
 	background-color: white;
 	width: 86%;
 	margin :0% 7%;
@@ -45,30 +50,41 @@ body{
 }
 
 /*Menu*/
+.menu{
+	width: 100%;
+}
 .menu ul {
-	margin: 0% 3%;
-	width: 94%
+	
+	width: 80%;
+	margin: 0% auto;
+}
+.menu li{
+	width: 100%
 }
 
 .menu ul li{
 	display: inline-block;
+	margin: 0% auto;
 	padding: 0% 1%;
 	width: auto;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	font-family: calibri;
-	font-size: 1.1em;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 0.9em;
+	
 }
 
 .menu ul li a:hover {
     text-decoration: none;
 }
+.menu ul li a {color:black;}
 
 /*sous-menu*/
 
-.menu ul li ul li:hover a{
-	font-family: calibri;
+.menu > ul > li > ul > li > a:hover{
+	font-weight: bold;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 .menu ul li ul{
@@ -86,27 +102,33 @@ body{
     display: block;
 }
 
+#SM li{
+	width: 250px;
+}
+
+#SMAT li{
+	width: 300px;
+}
+
 .menu ul li ul li {
     background-color: white;
     display: block;
     float: none;
     margin: 0px;
     padding: 0px;
-    width: 225px;
-}
-
-.menu ul li ul li:hover{
-	background-color: rgb(180, 126, 231);
+    width: 228px;
 }
 
 .menu ul li ul a{
+	color: black;
     display: block;
     height: 30px;
     font-size: 15px;
     font-style: normal;
     margin: 0px;
     padding: 0px 10px 0px 15px;
-    text-align: left;
+	text-align: left;
+	font-size: 1em;
 }
 
 /*sous-sous-menu*/
@@ -118,13 +140,10 @@ body{
 .menu ul li ul li:hover ul li{
     display: block;
 }
-.menu ul li ul li ul li:hover{
-	background-color: rgb(247, 118, 139);
+.menu ul li ul li:hover ul li a{
+	font-size: 1.2em;
 }
 
-#menu_long li{
-    width: 350px;
-}
 .menu ul li ul li ul{
     height: auto;
     padding: 0px;
@@ -135,4 +154,139 @@ body{
     width: 225px;
     z-index: 200;
     float: none;
+}
+
+#InterMenu {
+	height: auto;
+    padding: 0px;
+	border: 0px;
+	margin-left: -228px;
+	margin-top: -30px;
+    position: absolute;
+    width: 225px;
+    z-index: 200;
+    float: none;
+}
+
+#SSM li{
+	width: 378px;
+}
+
+#SM li ul li{
+	margin-left: 22px;
+}
+#SMAT li ul li{
+	margin-left: 72px;
+}
+
+/*Vie Scolaire*/
+
+.vie_scolaire > ul > li{
+	border-left: 3px solid #a20909;
+}
+.vie_scolaire > ul > li > a:hover{
+	color: #a20909;
+}
+
+.vie_scolaire > ul > li > ul > li > a:hover{
+	color: #a20909;
+}
+.vie_scolaire > ul > li > ul > li{
+	border-left: 3px solid #a20909;
+}
+
+/*Eau et assainissement*/
+
+.eau_et_assainissement > ul > li{
+	border-left: 3px solid #2596aa;
+}
+.eau_et_assainissement > ul > li > a:hover{
+	color: #2596aa;
+}
+
+.eau_et_assainissement > ul > li > ul > li > a:hover{
+	color: #2596aa;
+}
+.eau_et_assainissement > ul > li > ul > li{
+	border-left: 3px solid #2596aa;
+}
+
+/*Emploi et économie*/
+
+.emploi_et_economie > ul > li{
+	border-left: 3px solid #c6431b;
+}
+.emploi_et_economie > ul > li > a:hover{
+	color: #c6431b;
+}
+
+.emploi_et_economie > ul > li > ul > li > a:hover{
+	color: #c6431b;
+}
+.emploi_et_economie > ul > li > ul > li{
+	border-left: 3px solid #c6431b;
+}
+
+/*Amenagement du Territoire*/
+
+.amenagement_du_territoire > ul > li{
+	border-left: 3px solid #5f72b2;
+}
+.amenagement_du_territoire > ul > li > a:hover{
+	color: #5f72b2;
+}
+
+.amenagement_du_territoire > ul > li > ul > li > a:hover{
+	color: #5f72b2;
+}
+.amenagement_du_territoire > ul > li > ul > li{
+	border-left: 3px solid #5f72b2;
+}
+
+/*Tourisme*/
+
+.tourisme > ul > li{
+	border-left: 3px solid #d5872e;
+}
+.tourisme > ul > li > a:hover{
+	color: #d5872e;
+}
+
+.tourisme > ul > li > ul > li > a:hover{
+	color: #d5872e;
+}
+.tourisme > ul > li > ul > li{
+	border-left: 3px solid #d5872e;
+}
+
+/*Environnement*/
+
+.environnement > ul > li{
+	border-left: 3px solid #2aa868;
+}
+.environnement > ul > li > a:hover{
+	color: #2aa868;
+}
+
+.environnement > ul > li > ul > li > a:hover{
+	color: #2aa868;
+}
+.environnement > ul > li > ul > li{
+	border-left: 3px solid #2aa868;
+}
+
+/*L'intercommunalité*/
+
+.l_intercommunalite > ul > li{
+	border-right: 3px solid #103d82;
+}
+.l_intercommunalite > ul > li > a:hover{
+	color: #103d82;
+}
+
+.l_intercommunalite > ul > li > ul > li > a:hover{
+	color: #103d82;
+}
+.l_intercommunalite > ul > li > ul > li{
+	border-right: 3px solid #103d82;
 }
